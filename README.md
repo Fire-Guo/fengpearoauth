@@ -1,19 +1,19 @@
 # FengPear OAuth
 
-#### 介绍
-这是一个非常实用的oauth登录程序。根据这个程序，可以实现多个软件共用一个账号。
-没有安装程序，使用请自行修改数据库信息。
-目前为api形式，网页型登录页面还在制作中。
-api调用方式：https://server/oauth/login.php?username=用户名&password=密码
-返回值：[uid]/false(账号或密码错误)
+#### Introduction
+This is a very useful OAuth login program. According to this program, it is possible to share an account with multiple software.
+There is no installer, please modify the database information yourself.
+It is currently in the form of an API, and a web-based landing page is still in production.
+API call mode: https://server/oauth/login.php?username=username&password=password
+Return value: [uid]/false (wrong account or password)
 
-#### 软件架构
-oauth文件夹：登录调用
-register文件夹：注册网页
+#### Software architecture
+OAuth folder: Login call
+Register folder: Register web page
 
-#### 参与贡献
+#### Contribute to the contribution
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1. Fork the repository
+2. Create a new Feat_xxx branch
+3. Submit the code
+4. Create a new pull request
