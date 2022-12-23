@@ -1,7 +1,7 @@
 <?php
 //receive the data from client
-$name=$_GET["username"];
-$pwd=$_GET["password"];
+$name=$_POST["username"];
+$pwd=$_POST["password"];
 require_once ("../config.inc.php");
 //telnet mysql
 $db=mysqli_connect($host,$dbname,$dbpw,$database);

@@ -19,13 +19,13 @@
   <div class="layui-card-body">
 			<form class="layui-form" action="re.php" method="post" onsubmit="return checkForm(this)" lay-filter="example">
 			 <div class="layui-form-item">
-			 <label class="layui-form-label">输入框</label>
+			 <label class="layui-form-label">账号</label>
 			 <div class="layui-input-block">
 			  <input type="text" name="username" placeholder="请输入账号" class="layui-input">
 			 </div>
 			 </div>
 			 <div class="layui-form-item">
-			 <label class="layui-form-label">密码框</label>
+			 <label class="layui-form-label">密码</label>
 			 <div class="layui-input-block">
 			  <input type="password" name="password" placeholder="请输入密码" class="layui-input">
 			 </div>
