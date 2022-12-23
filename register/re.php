@@ -9,7 +9,8 @@ $name = $_POST["username"];
 $pwd = $_POST["password"];
 //操作数据库：
 //连接数据源：
-$db = mysqli_connect("localhost","root","123456","root");
+require_once ("../config.inc.php");
+$db = mysqli_connect($host,$dbname,$dbpw,$database);
 //编写sql语句：
 $sql = "INSERT INTO `account`( `username`, `password`) VALUES ('$name','$pwd')";
 //执行sql语句：
