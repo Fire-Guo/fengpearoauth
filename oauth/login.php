@@ -2,8 +2,9 @@
 //receive the data from client
 $name=$_GET["username"];
 $pwd=$_GET["password"];
+require_once ("../config.inc.php");
 //telnet mysql
-$db=mysqli_connect("localhost","root","123456","root");
+$db=mysqli_connect($host,$dbname,$dbpw,$database);
 //select the databases
 $sql="select * from account where username ='$name'";
 $res= mysqli_query($db,$sql);
