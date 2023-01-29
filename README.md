@@ -5,6 +5,7 @@ This is a very useful OAuth login program. According to this program, it is poss
 There is no installer, please modify the database information yourself.
 It is currently a web-based authorization login page.
 Call method: https://server/login
+Please use GET call.
 Return value: [uid]/false (wrong account or password)
 
 #### Software architecture
